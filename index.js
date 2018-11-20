@@ -45,4 +45,9 @@ let customerId = 0;
             this.id = ++customerId;
             store.customers.push(this);
           }
+          // meals() {
+          //   return store.meals.find(meal =>{
+          //     return meal.customer
+          //   })
+          // }
         }
